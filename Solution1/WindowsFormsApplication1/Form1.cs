@@ -21,5 +21,10 @@ namespace WindowsFormsApplication1
 		{
 			MessageBox.Show(this, "Huhu", "Msg", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 		}
+
+		private void button2_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show(this, "Haha", "Msg", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+		}
 	}
 }
